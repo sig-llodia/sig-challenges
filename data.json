@@ -67,7 +67,7 @@
             "sector": "Health & Well-Being",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "vvuq",
             "capability2": "decision_support",
             "capability3": "security_privacy"
@@ -127,19 +127,19 @@
             "sector": "Natural Environment",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "predictive_analytics",
             "capability2": "vvuq",
             "capability3": "visual_spatial"
         },
         {
             "number": 12,
-            "title": "Environmental Digital Twin Interoperability",
+            "title": "Environmental AI-DT Interoperability",
             "description": "Ensuring compatible uncertainty representation and cross-validation between different AI-DTs representing interacting environmental systems (e.g., atmosphere, ocean, land surface).",
             "sector": "Natural Environment",
             "significance": 2,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "system_modelling",
             "capability2": "twin_orchestration",
             "capability3": "vvuq"
@@ -223,14 +223,14 @@
             "sector": "Built Environment",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "twin_orchestration",
             "capability2": "system_modelling",
             "capability3": "visual_spatial"
         },
         {
             "number": 20,
-            "title": "Smart City Privacy and Public Acceptance",
+            "title": "Privacy and Public Acceptance",
             "description": "Validating that AI-DTs for urban environments handle citizen data ethically, implementing privacy-by-design principles, transparent data usage policies, and appropriate consent mechanisms to maintain public trust.",
             "sector": "Built Environment",
             "significance": 3,
@@ -242,12 +242,12 @@
         },
         {
             "number": 21,
-            "title": "Policy Impact Assessment Validation",
+            "title": "Policy Impact Assessment",
             "description": "Developing methods to validate AI-DTs used for policy simulations, ensuring they accurately represent complex socio-economic systems and provide trustworthy insights for decision-makers.",
             "sector": "Government",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "decision_support",
             "capability2": "system_modelling",
             "capability3": "vvuq"
@@ -259,7 +259,7 @@
             "sector": "Government",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "security_privacy",
             "capability2": "decision_support",
             "capability3": "vvuq"
@@ -278,7 +278,7 @@
         },
         {
             "number": 24,
-            "title": "Regulatory Harmonisation for International Collaboration",
+            "title": "Regulatory Harmonisation",
             "description": "Developing frameworks to harmonise regulations across national boundaries for AI-DTs and data sharing, facilitating international collaboration while ensuring relevant security, privacy, and ethical standards are maintained across jurisdictions.",
             "sector": "Government",
             "significance": 3,
@@ -290,7 +290,7 @@
         },
         {
             "number": 25,
-            "title": "Data Validity and Currency Assurance",
+            "title": "Data Validity and Quality",
             "description": "Developing continuous validation mechanisms to ensure AI-DTs are trained and operate on data that remains relevant and accurate, with appropriate handling of data quality issues and model-drift detection.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -326,7 +326,7 @@
         },
         {
             "number": 28,
-            "title": "Explainable AI-DT Decision Processes",
+            "title": "Explainable AI-DT Decisions",
             "description": "Creating mechanisms to make AI-DT reasoning processes transparent and explainable to users and regulators, while maintaining performance and enabling effective oversight.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -338,7 +338,7 @@
         },
         {
             "number": 29,
-            "title": "AI-DT Lifecycle Management Assurance",
+            "title": "AI-DT Lifecycle Management",
             "description": "Developing methods to verify AI-DTs remain accurate and useful throughout the lifecycle of the physical system, adapting to changes while maintaining a verifiable historical record of performance.",
             "sector": "Cross-Cutting",
             "significance": 2,
@@ -355,7 +355,7 @@
             "sector": "Cross-Cutting",
             "significance": 3,
             "complexity": 3,
-            "readiness": 3,
+            "readiness": 2,
             "capability1": "vvuq",
             "capability2": "knowledge_representation",
             "capability3": "twin_orchestration"
@@ -422,7 +422,7 @@
         },
         {
             "number": 36,
-            "title": "Hybrid Model Integration and Assurance",
+            "title": "Hybrid Model Integration",
             "description": "Validating digital twins that combine data-driven and mechanistic models, ensuring consistent uncertainty quantification, appropriate parameter estimation, and reliable prediction accuracy across different modelling paradigms.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -434,7 +434,7 @@
         },
         {
             "number": 37,
-            "title": "Digital Twin Feedback Loop Stability",
+            "title": "AI-DT Feedback Loop Stability",
             "description": "Developing methods to ensure stability in the bidirectional feedback loop between the physical and virtual components of a digital twin, especially with dynamic model updating, adaptation, and the emergence of non-linear couplings.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -446,7 +446,7 @@
         },
         {
             "number": 38,
-            "title": "Computational Resource Management for Digital Twins",
+            "title": "Computational Resource Management",
             "description": "Developing strategies to make digital twins viable within computational resource constraints, including methods for balancing model fidelity with computational cost, distributing computation across edge and cloud resources, and optimising real-time performance.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -458,7 +458,7 @@
         },
         {
             "number": 39,
-            "title": "Digital Twin Uncertainty Communication",
+            "title": "AI-DT Uncertainty Communication",
             "description": "Creating effective methods for visualising and communicating uncertainty in digital twin outputs to diverse users, ensuring appropriate trust calibration and supporting high-consequence decision-making under uncertainty.",
             "sector": "Cross-Cutting",
             "significance": 3,
@@ -467,6 +467,66 @@
             "capability1": "human_twin_interaction",
             "capability2": "vvuq",
             "capability3": "decision_support"
+        },
+        {
+            "number": 40,
+            "title": "Complex & Adaptive AI Models",
+            "description": "Validating and verifying the behaviour of complex, potentially opaque (e.g., deep learning) or adaptive (e.g., online learning, RL) AI models embedded within digital twins, ensuring their stability, robustness, and predictability over time.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 3,
+            "readiness": 2,
+            "capability1": "vvuq",
+            "capability2": "system_modelling",
+            "capability3": "predictive_analytics"
+        },
+        {
+            "number": 41,
+            "title": "AI-DT Accountability & Auditability",
+            "description": "Establishing clear frameworks and technical mechanisms for tracing AI-DT influenced decisions, logging relevant data for audits, and assigning accountability, particularly in regulated industries or when failures occur.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 3,
+            "readiness": 2,
+            "capability1": "decision_support",
+            "capability2": "knowledge_representation",
+            "capability3": "security_privacy"
+        },
+        {
+            "number": 42,
+            "title": "Sustainable AI-DT Operation",
+            "description": "Developing methods to measure, optimise, and assure the energy efficiency and computational resource usage of AI-DTs throughout their lifecycle, balancing performance requirements with sustainability goals.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 2,
+            "readiness": 2,
+            "capability1": "optimisation",
+            "capability2": "system_modelling",
+            "capability3": "realtime_monitoring"
+        },
+        {
+            "number": 43,
+            "title": "Edge Component Assurance",
+            "description": "Ensuring the reliability, security, performance, and robust update mechanisms for AI models and DT functionalities deployed on distributed edge devices, considering resource constraints and intermittent connectivity.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 3,
+            "readiness": 2,
+            "capability1": "security_privacy",
+            "capability2": "realtime_monitoring",
+            "capability3": "vvuq"
+        },
+        {
+            "number": 44,
+            "title": "Compositional Assurance for Integrated Systems",
+            "description": "Developing methods to assure the emergent behaviour, safety, and reliability of complex systems formed by composing multiple, potentially independently developed and validated, AI-DT components or sub-twins.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 3,
+            "readiness": 2,
+            "capability1": "vvuq",
+            "capability2": "twin_orchestration",
+            "capability3": "system_modelling"
         }
     ]
 }
