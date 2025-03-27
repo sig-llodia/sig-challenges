@@ -18,7 +18,7 @@
           "significance", 
           "complexity", 
           "readiness",
-          "capability1"
+          "capabilities"
         ],
         "properties": {
           "number": {
@@ -66,62 +66,61 @@
             "minimum": 1,
             "maximum": 3
           },
-          "capability1": {
-            "type": "string",
-            "description": "Primary AI-DT capability associated with the challenge",
-            "enum": [
-              "system_modelling",
-              "data_integration",
-              "realtime_monitoring",
-              "predictive_analytics",
-              "anomaly_detection",
-              "optimisation",
-              "decision_support",
-              "visual_spatial",
-              "human_twin_interaction",
-              "twin_orchestration",
-              "knowledge_representation",
-              "security_privacy",
-              "vvuq"
-            ]
+          "capabilities": {
+            "type": "array",
+            "description": "List of AI-DT capability IDs associated with the challenge",
+            "items": {
+              "type": "string",
+              "enum": [
+                "system_modelling",
+                "data_integration",
+                "realtime_monitoring",
+                "predictive_analytics",
+                "anomaly_detection",
+                "optimisation",
+                "decision_support",
+                "visual_spatial",
+                "human_twin_interaction",
+                "twin_orchestration",
+                "knowledge_representation",
+                "security_privacy",
+                "vvuq"
+              ]
+            },
+            "minItems": 1
           },
-          "capability2": {
+          "rationale": {
             "type": "string",
-            "description": "Secondary AI-DT capability associated with the challenge",
-            "enum": [
-              "system_modelling",
-              "data_integration",
-              "realtime_monitoring",
-              "predictive_analytics",
-              "anomaly_detection",
-              "optimisation",
-              "decision_support",
-              "visual_spatial",
-              "human_twin_interaction",
-              "twin_orchestration",
-              "knowledge_representation",
-              "security_privacy",
-              "vvuq"
-            ]
+            "description": "Optional justification or context for ratings or challenge definition"
           },
-          "capability3": {
+          "related_challenges": {
+            "type": "array",
+            "description": "Optional list of numbers of related challenges",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "date_added": {
             "type": "string",
-            "description": "Tertiary AI-DT capability associated with the challenge",
-            "enum": [
-              "system_modelling",
-              "data_integration",
-              "realtime_monitoring",
-              "predictive_analytics",
-              "anomaly_detection",
-              "optimisation",
-              "decision_support",
-              "visual_spatial",
-              "human_twin_interaction",
-              "twin_orchestration",
-              "knowledge_representation",
-              "security_privacy",
-              "vvuq"
-            ]
+            "format": "date",
+            "description": "Date the challenge was initially added"
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date",
+            "description": "Date the challenge was last modified"
+          },
+          "references": {
+            "type": "array",
+            "description": "Optional list of references or sources",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rating_confidence": {
+            "type": "string",
+            "enum": ["High", "Medium", "Low"],
+            "description": "Optional confidence level in the assigned S/C/R ratings"
           }
         }
       }

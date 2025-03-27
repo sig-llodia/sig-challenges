@@ -55,9 +55,9 @@ class CardReader {
         // AI Capability Filter
         if (this.filters.aiCapabilities && this.filters.aiCapabilities.length > 0) {
             filteredData = filteredData.filter(item =>
-                this.filters.aiCapabilities.includes(item.capability1?.toLowerCase()) ||
-                this.filters.aiCapabilities.includes(item.capability2?.toLowerCase()) ||
-                this.filters.aiCapabilities.includes(item.capability3?.toLowerCase())
+                item.capabilities && item.capabilities.some(cap => 
+                    this.filters.aiCapabilities.includes(cap.toLowerCase())
+                )
             );
         }
 
@@ -211,10 +211,14 @@ class Card {
         }
     }
 
-    // Check if capability exists
+    // Check if capability exists at index
     hasCapability(index) {
-        const capabilityField = `capability${index}`;
-        return this.data[capabilityField] ? true : false;
+        return this.data.capabilities && this.data.capabilities.length > index;
+    }
+
+    // Get capability at index
+    getCapabilityAtIndex(index) {
+        return this.data.capabilities && this.data.capabilities.length > index ? this.data.capabilities[index] : null;
     }
 
     // Get capability name by ID
@@ -255,21 +259,21 @@ class Card {
               <span>${this.data.title}</span>
             </div>
             <div class="icon icon-1 card-${this.getColor()}-bg">
-              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.data.capability1)}">${this.getCapabilityIcon(this.data.capability1).startsWith('fa-') 
-                ? `<i class="${this.getCapabilityIcon(this.data.capability1)}"></i>` 
-                : `<img src="images/icons/${this.getCapabilityIcon(this.data.capability1)}" />`}</span>
+              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.getCapabilityAtIndex(0))}">${this.getCapabilityIcon(this.getCapabilityAtIndex(0)).startsWith('fa-') 
+                ? `<i class="${this.getCapabilityIcon(this.getCapabilityAtIndex(0))}"></i>` 
+                : `<img src="images/icons/${this.getCapabilityIcon(this.getCapabilityAtIndex(0))}" />`}</span>
             </div>
-            ${this.hasCapability(2) ? `
+            ${this.hasCapability(1) ? `
               <div class="icon icon-2 card-${this.getColor()}-bg">
-              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.data.capability2)}">${this.getCapabilityIcon(this.data.capability2).startsWith('fa-') 
-                ? `<i class="${this.getCapabilityIcon(this.data.capability2)}"></i>` 
-                : `<img src="images/icons/${this.getCapabilityIcon(this.data.capability2)}" />`}</span>
+              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.getCapabilityAtIndex(1))}">${this.getCapabilityIcon(this.getCapabilityAtIndex(1)).startsWith('fa-') 
+                ? `<i class="${this.getCapabilityIcon(this.getCapabilityAtIndex(1))}"></i>` 
+                : `<img src="images/icons/${this.getCapabilityIcon(this.getCapabilityAtIndex(1))}" />`}</span>
             </div>` : ''}
-            ${this.hasCapability(3) ? `
+            ${this.hasCapability(2) ? `
               <div class="icon icon-3 card-${this.getColor()}-bg">
-              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.data.capability3)}">${this.getCapabilityIcon(this.data.capability3).startsWith('fa-') 
-                ? `<i class="${this.getCapabilityIcon(this.data.capability3)}"></i>` 
-                : `<img src="images/icons/${this.getCapabilityIcon(this.data.capability3)}" />`}</span>
+              <span data-bs-toggle="tooltip" data-bs-placement="right" title="${this.getCapabilityName(this.getCapabilityAtIndex(2))}">${this.getCapabilityIcon(this.getCapabilityAtIndex(2)).startsWith('fa-') 
+                ? `<i class="${this.getCapabilityIcon(this.getCapabilityAtIndex(2))}"></i>` 
+                : `<img src="images/icons/${this.getCapabilityIcon(this.getCapabilityAtIndex(2))}" />`}</span>
             </div>` : ''}
           </div>
 

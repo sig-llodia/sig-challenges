@@ -8,9 +8,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "system_modelling",
-            "capability2": "predictive_analytics",
-            "capability3": "vvuq"
+            "capabilities": ["system_modelling", "predictive_analytics", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 2,
@@ -20,9 +20,9 @@
             "significance": 2,
             "complexity": 3,
             "readiness": 3,
-            "capability1": "twin_orchestration",
-            "capability2": "system_modelling",
-            "capability3": "data_integration"
+            "capabilities": ["twin_orchestration", "system_modelling", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 3,
@@ -32,9 +32,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "anomaly_detection",
-            "capability3": "realtime_monitoring"
+            "capabilities": ["security_privacy", "anomaly_detection", "realtime_monitoring"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 4,
@@ -44,9 +44,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 3,
-            "capability1": "predictive_analytics",
-            "capability2": "vvuq",
-            "capability3": "security_privacy"
+            "capabilities": ["predictive_analytics", "vvuq", "security_privacy"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 5,
@@ -56,9 +56,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "knowledge_representation",
-            "capability3": "security_privacy"
+            "capabilities": ["data_integration", "knowledge_representation", "security_privacy"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 6,
@@ -68,9 +68,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "decision_support",
-            "capability3": "security_privacy"
+            "capabilities": ["vvuq", "decision_support", "security_privacy"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 7,
@@ -80,9 +80,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "knowledge_representation",
-            "capability3": "decision_support"
+            "capabilities": ["vvuq", "knowledge_representation", "decision_support"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 8,
@@ -92,9 +92,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "predictive_analytics",
-            "capability2": "optimisation",
-            "capability3": "twin_orchestration"
+            "capabilities": ["predictive_analytics", "optimisation", "twin_orchestration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 9,
@@ -104,9 +104,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "realtime_monitoring",
-            "capability2": "twin_orchestration",
-            "capability3": "anomaly_detection"
+            "capabilities": ["realtime_monitoring", "twin_orchestration", "anomaly_detection"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 10,
@@ -116,9 +116,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "system_modelling",
-            "capability3": "realtime_monitoring"
+            "capabilities": ["data_integration", "system_modelling", "realtime_monitoring"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 11,
@@ -128,9 +128,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "predictive_analytics",
-            "capability2": "vvuq",
-            "capability3": "visual_spatial"
+            "capabilities": ["predictive_analytics", "vvuq", "visual_spatial"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 12,
@@ -140,9 +140,9 @@
             "significance": 2,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "system_modelling",
-            "capability2": "twin_orchestration",
-            "capability3": "vvuq"
+            "capabilities": ["system_modelling", "twin_orchestration", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 13,
@@ -152,9 +152,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "realtime_monitoring",
-            "capability3": "anomaly_detection"
+            "capabilities": ["data_integration", "realtime_monitoring", "anomaly_detection"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 14,
@@ -164,9 +164,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "decision_support",
-            "capability2": "vvuq",
-            "capability3": "realtime_monitoring"
+            "capabilities": ["decision_support", "vvuq", "realtime_monitoring"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 15,
@@ -176,9 +176,9 @@
             "significance": 2,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "optimisation",
-            "capability2": "twin_orchestration",
-            "capability3": "predictive_analytics"
+            "capabilities": ["optimisation", "twin_orchestration", "predictive_analytics"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 16,
@@ -188,9 +188,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "twin_orchestration",
-            "capability3": "data_integration"
+            "capabilities": ["security_privacy", "twin_orchestration", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 17,
@@ -200,9 +200,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "anomaly_detection",
-            "capability3": "realtime_monitoring"
+            "capabilities": ["security_privacy", "anomaly_detection", "realtime_monitoring"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 18,
@@ -212,9 +212,9 @@
             "significance": 2,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "system_modelling",
-            "capability2": "predictive_analytics",
-            "capability3": "vvuq"
+            "capabilities": ["system_modelling", "predictive_analytics", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 19,
@@ -224,9 +224,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "twin_orchestration",
-            "capability2": "system_modelling",
-            "capability3": "visual_spatial"
+            "capabilities": ["twin_orchestration", "system_modelling", "visual_spatial"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 20,
@@ -236,9 +236,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "human_twin_interaction",
-            "capability3": "knowledge_representation"
+            "capabilities": ["security_privacy", "human_twin_interaction", "knowledge_representation"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 21,
@@ -248,9 +248,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "decision_support",
-            "capability2": "system_modelling",
-            "capability3": "vvuq"
+            "capabilities": ["decision_support", "system_modelling", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 22,
@@ -260,9 +260,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "decision_support",
-            "capability3": "vvuq"
+            "capabilities": ["security_privacy", "decision_support", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 23,
@@ -272,9 +272,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "twin_orchestration",
-            "capability3": "knowledge_representation"
+            "capabilities": ["data_integration", "twin_orchestration", "knowledge_representation"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 24,
@@ -284,9 +284,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "knowledge_representation",
-            "capability2": "security_privacy",
-            "capability3": "twin_orchestration"
+            "capabilities": ["knowledge_representation", "security_privacy", "twin_orchestration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 25,
@@ -296,9 +296,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "vvuq",
-            "capability3": "anomaly_detection"
+            "capabilities": ["data_integration", "vvuq", "anomaly_detection"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 26,
@@ -308,9 +308,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "twin_orchestration",
-            "capability3": "data_integration"
+            "capabilities": ["security_privacy", "twin_orchestration", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 27,
@@ -320,9 +320,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "human_twin_interaction",
-            "capability2": "decision_support",
-            "capability3": "vvuq"
+            "capabilities": ["human_twin_interaction", "decision_support", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 28,
@@ -332,9 +332,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "decision_support",
-            "capability2": "knowledge_representation",
-            "capability3": "human_twin_interaction"
+            "capabilities": ["decision_support", "knowledge_representation", "human_twin_interaction"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 29,
@@ -344,9 +344,9 @@
             "significance": 2,
             "complexity": 2,
             "readiness": 3,
-            "capability1": "system_modelling",
-            "capability2": "data_integration",
-            "capability3": "vvuq"
+            "capabilities": ["system_modelling", "data_integration", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 30,
@@ -356,9 +356,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "knowledge_representation",
-            "capability3": "twin_orchestration"
+            "capabilities": ["vvuq", "knowledge_representation", "twin_orchestration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 31,
@@ -368,9 +368,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "human_twin_interaction",
-            "capability2": "decision_support",
-            "capability3": "knowledge_representation"
+            "capabilities": ["human_twin_interaction", "decision_support", "knowledge_representation"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 32,
@@ -380,9 +380,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "data_integration",
-            "capability2": "knowledge_representation",
-            "capability3": "human_twin_interaction"
+            "capabilities": ["data_integration", "knowledge_representation", "human_twin_interaction"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 33,
@@ -392,9 +392,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "decision_support",
-            "capability2": "knowledge_representation",
-            "capability3": "system_modelling"
+            "capabilities": ["decision_support", "knowledge_representation", "system_modelling"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 34,
@@ -404,9 +404,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "system_modelling",
-            "capability3": "data_integration"
+            "capabilities": ["vvuq", "system_modelling", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 35,
@@ -416,9 +416,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "system_modelling",
-            "capability3": "predictive_analytics"
+            "capabilities": ["vvuq", "system_modelling", "predictive_analytics"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 36,
@@ -428,9 +428,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "system_modelling",
-            "capability2": "vvuq",
-            "capability3": "data_integration"
+            "capabilities": ["system_modelling", "vvuq", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 37,
@@ -440,9 +440,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "twin_orchestration",
-            "capability2": "vvuq",
-            "capability3": "system_modelling"
+            "capabilities": ["twin_orchestration", "vvuq", "system_modelling"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 38,
@@ -452,9 +452,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "system_modelling",
-            "capability2": "twin_orchestration",
-            "capability3": "data_integration"
+            "capabilities": ["system_modelling", "twin_orchestration", "data_integration"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 39,
@@ -464,9 +464,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "human_twin_interaction",
-            "capability2": "vvuq",
-            "capability3": "decision_support"
+            "capabilities": ["human_twin_interaction", "vvuq", "decision_support"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 40,
@@ -476,9 +476,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "system_modelling",
-            "capability3": "predictive_analytics"
+            "capabilities": ["vvuq", "system_modelling", "predictive_analytics"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 41,
@@ -488,9 +488,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "decision_support",
-            "capability2": "knowledge_representation",
-            "capability3": "security_privacy"
+            "capabilities": ["decision_support", "knowledge_representation", "security_privacy"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 42,
@@ -500,9 +500,9 @@
             "significance": 3,
             "complexity": 2,
             "readiness": 2,
-            "capability1": "optimisation",
-            "capability2": "system_modelling",
-            "capability3": "realtime_monitoring"
+            "capabilities": ["optimisation", "system_modelling", "realtime_monitoring"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 43,
@@ -512,9 +512,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "security_privacy",
-            "capability2": "realtime_monitoring",
-            "capability3": "vvuq"
+            "capabilities": ["security_privacy", "realtime_monitoring", "vvuq"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         },
         {
             "number": 44,
@@ -524,9 +524,9 @@
             "significance": 3,
             "complexity": 3,
             "readiness": 2,
-            "capability1": "vvuq",
-            "capability2": "twin_orchestration",
-            "capability3": "system_modelling"
+            "capabilities": ["vvuq", "twin_orchestration", "system_modelling"],
+            "date_added": "2025-03-27",
+            "last_updated": "2025-03-27"
         }
     ]
 }
