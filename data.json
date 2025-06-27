@@ -575,6 +575,42 @@
             "capabilities": ["vvuq", "decision_support", "human_twin_interaction"],
             "date_added": "2025-06-03",
             "last_updated": "2025-06-03"
+        },
+        {
+            "number": 49,
+            "title": "Interoperability between federated digital twins",
+            "description": "DTs of complex systems of systems need themselves be systems of systems -- sometimes referred to as federations of digital twins. To ensure good interoperability between these digital twins, we need to ensure that the syntactic and semantic objects that flow through the DT interface can be translated between different DTs without loss.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 2,
+            "readiness": 2,
+            "capabilities": ["twin_orchestration", "data_integration", "knowledge_representation", "system_modelling"],
+            "date_added": "2025-06-27",
+            "last_updated": "2025-06-27"
+        },
+        {
+            "number": 50,
+            "title": "Efficient development of DTs through correct analysis-method reuse",
+            "description": "Developing DTs is complex and costly. Reuse can alleviate this issue, but safe and robust reuse of complext tools and methods -- for example, analysis methods like FMEA -- is itself complex and requires a clear model of the contextual dependencies, inputs, and outputs of these methods. This requires syntactic and semantic models -- ontologies and languages -- as well as mappings between the generic models of a tool/method and the data actually available in a DT.",
+            "sector": "Cross-Cutting",
+            "significance": 2,
+            "complexity": 3,
+            "readiness": 2,
+            "capabilities": ["knowledge_representation","anomaly_detection","decision_support","optimisation","predictive_analytics","system_modelling"],
+            "date_added": "2025-06-27",
+            "last_updated": "2025-06-27"
+        },
+        {
+            "number": 51,
+            "title": "Explainable digital twin models",
+            "description": "Digital twins are complex models of complex real-world systems/artefacts. To ensure trust, these models (not just the decisions made) must be explainable to subject-matter experts. Implementations in classic programming languages do not provide this explainability and implementations using only genAI do not provide the trust and robustness. Dedicated languages and translations may be a mechanism for explainability of models.",
+            "sector": "Cross-Cutting",
+            "significance": 3,
+            "complexity": 2,
+            "readiness": 3,
+            "capabilities": ["system_modelling","knowledge_representation"],
+            "date_added": "2025-06-27",
+            "last_updated": "2025-06-27"
         }
     ]
 }
