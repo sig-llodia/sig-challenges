@@ -579,7 +579,7 @@
         {
             "number": 49,
             "title": "Interoperability between federated digital twins",
-            "description": "DTs of complex systems of systems need themselves be systems of systems -- sometimes referred to as federations of digital twins. To ensure good interoperability between these digital twins, we need to ensure that the syntactic and semantic objects that flow through the DT interface can be translated between different DTs without loss.",
+            "description": "DTs of complex systems of systems must themselves be systems of systems -- sometimes referred to as federations of digital twins. To ensure good interoperability between these digital twins, the syntactic and semantic objects that flow through the DT interfaces must be translatable between different DTs without loss or security compromise.",
             "sector": "Cross-Cutting",
             "significance": 3,
             "complexity": 2,
@@ -590,8 +590,8 @@
         },
         {
             "number": 50,
-            "title": "Efficient development of DTs through correct analysis-method reuse",
-            "description": "Developing DTs is complex and costly. Reuse can alleviate this issue, but safe and robust reuse of complext tools and methods -- for example, analysis methods like FMEA -- is itself complex and requires a clear model of the contextual dependencies, inputs, and outputs of these methods. This requires syntactic and semantic models -- ontologies and languages -- as well as mappings between the generic models of a tool/method and the data actually available in a DT.",
+            "title": "Efficient DT development via correct analysis reuse",
+            "description": "Developing DTs is complex and costly. Reuse can help, but safely reusing complex tools and methods -- like FMEA -- is also challenging. It requires clear models of each method's contextual dependencies, inputs, and outputs. This, in turn, demands syntactic and semantic models -- such as ontologies and languages -- and mappings between generic tool representations and DT data.",
             "sector": "Cross-Cutting",
             "significance": 2,
             "complexity": 3,
