@@ -603,7 +603,7 @@
         {
             "number": 51,
             "title": "Explainable digital twin models",
-            "description": "Digital twins are complex models of complex real-world systems/artefacts. To ensure trust, these models (not just the decisions made) must be explainable to subject-matter experts. Implementations in classic programming languages do not provide this explainability and implementations using only genAI do not provide the trust and robustness. Dedicated languages and translations may be a mechanism for explainability of models.",
+            "description": "Digital twins are complex models of complex real-world systems/artefacts. To ensure trust, these models (not just the decisions made) must be explainable to subject-matter experts. Implementations in classic programming languages do not provide this explainability and implementations using only genAI do not provide the trust and robustness. Dedicated languages, ontologies and translations may be a mechanism for explainability of models.",
             "sector": "Cross-Cutting",
             "significance": 3,
             "complexity": 2,
